@@ -1,0 +1,96 @@
+hr.ticket-divider {
+  height: 1px;
+  background-color: #EAEDF0;
+  border: none;
+}
+
+.confirmed {
+  font-weight: 900;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.confirmed-details {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.parking-icon {
+  position: relative;
+  z-index: 2;
+  right: -20px;
+  top: 30px;
+}
+
+.MuiCard-root.ticket-top {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-color: #EAEDF0;
+  --mask: radial-gradient(0.5rem at 0.5rem 100%,#0000 100%,#000) -0.5rem;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.MuiCard-root.ticket-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #EAEDF0;
+  border-color: #EAEDF0;
+  --mask: radial-gradient(0.5rem at 0.5rem 0,#0000 100%,#000) -0.5rem;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.black-circle-icon {
+  background: #000;
+  height: 24px;
+  width: 24px;
+  padding: 6px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ticket-date-left {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);;
+}
+
+.ticket-big-date {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.ticket-date-year {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.ticket-start-end-date {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; 
+}
+
+.ticket-action-text {
+  padding-left: 0.5rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
