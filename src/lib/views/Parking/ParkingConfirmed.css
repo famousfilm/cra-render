@@ -38,10 +38,10 @@ hr.ticket-divider {
 }
 
 .MuiCard-root.ticket-bottom {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #EAEDF0;
-  border-color: #EAEDF0;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-left-color: #EAEDF0;
+  border-right-color: #EAEDF0;
   --mask: radial-gradient(0.5rem at 0.5rem 0,#0000 100%,#000) -0.5rem;
   -webkit-mask: var(--mask);
           mask: var(--mask);
@@ -93,4 +93,10 @@ hr.ticket-divider {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.ticket-actions {
+  border-top-color: #EAEDF0;
+  border-top-width: 1px;
+  border-top-style: solid;
 }

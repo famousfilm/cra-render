@@ -26,20 +26,20 @@ export const ParkingConfirmedView: React.FC = () => {
         <Box sx={{
             backgroundImage: `url(${getMapsImageURL(
                 details.locationAddress, 
-                window.innerWidth, 
-                window.innerHeight
+                // window.innerWidth, 
+                // window.innerHeight
             )})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            width: "100vw",
-            height: "100vh",
+            width: "100%",
+            height: "100%",
         }}>
             <Box sx={{
                 backgroundColor: "rgba(246, 198, 45, 0.75)", 
                 backdropFilter: "blur(1px)", 
-                width: "100vw",
-                height: "100vh",
+                width: "100%",
+                height: "100%",
             }}>
                 <Container sx={{ pt: 7, px: 2, pb: 2 }}>
                     <Box>
@@ -73,7 +73,7 @@ export const ParkingConfirmedView: React.FC = () => {
                                 />
                             </Grid>
                             <Grid item xs={12}>
-                                <Card square>
+                                <Card square className="ticket-actions">
                                     <Box sx={{ pl: 3 }}>
                                         <TicketActions 
                                             ticketActions={[
